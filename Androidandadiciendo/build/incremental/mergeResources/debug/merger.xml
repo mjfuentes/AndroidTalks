@@ -9,6 +9,11 @@
                 qualifiers=""
                 type="drawable" />
             <file
+                name="share_icon"
+                path="C:\Users\matias\AndroidStudioProjects\AndroidandadiciendoProject\Androidandadiciendo\src\main\res\drawable\share_icon.png"
+                qualifiers=""
+                type="drawable" />
+            <file
                 name="unc_icon"
                 path="C:\Users\matias\AndroidStudioProjects\AndroidandadiciendoProject\Androidandadiciendo\src\main\res\drawable\unc_icon.jpg"
                 qualifiers=""
@@ -145,11 +150,6 @@
                     <!-- API 11 theme customizations can go here. -->
                 </style>
             </file>
-            <file
-                name="share_icon"
-                path="C:\Users\matias\AndroidStudioProjects\AndroidandadiciendoProject\Androidandadiciendo\src\main\res\drawable\share_icon.png"
-                qualifiers=""
-                type="drawable" />
         </source>
         <source path="C:\Users\matias\AndroidStudioProjects\AndroidandadiciendoProject\Androidandadiciendo\build\res\rs\debug" />
     </dataSet>

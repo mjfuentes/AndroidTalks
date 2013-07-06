@@ -9,6 +9,7 @@
         android:targetSdkVersion="16" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
@@ -19,7 +20,8 @@
         android:name=".StartApplication">
         <activity
             android:name="com.mjfuentes.androidandadiciendo.MainActivity"
-            android:label="Android anda diciendo" >
+            android:label="Android anda diciendo"
+                android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,12 +30,16 @@
         </activity>
         <activity
             android:name="com.mjfuentes.androidandadiciendo.PageActivity"
-            android:label="Android anda diciendo" >
+            android:label="Android anda diciendo"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name="com.mjfuentes.androidandadiciendo.ImagesActivity"
-            android:label="@string/title_activity_images" >
+            android:label="@string/title_activity_images"
+            android:screenOrientation="portrait">
         </activity>
+        <activity android:name="com.google.ads.AdActivity"
+                  android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
     </application>
 
 </manifest>

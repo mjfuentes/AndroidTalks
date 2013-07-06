@@ -9,7 +9,7 @@ buildscript {
 apply plugin: 'android'
 
 dependencies {
-    compile files('libs/android-support-v4.jar','libs/universal-image-loader-1.8.5.jar')
+    compile files('libs/android-support-v4.jar','libs/universal-image-loader-1.8.5.jar','libs/GoogleAdMobAdsSdk-6.4.1.jar')
 }
 
 android {
