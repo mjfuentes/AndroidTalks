@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mjfuentes.androidandadiciendo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Android anda diciendo"
+        android:theme="@style/AppTheme"
+        android:name=".StartApplication">
+        <activity
+            android:name="com.mjfuentes.androidandadiciendo.MainActivity"
+            android:label="Android anda diciendo" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mjfuentes.androidandadiciendo.PageActivity"
+            android:label="Android anda diciendo" >
+        </activity>
+        <activity
+            android:name="com.mjfuentes.androidandadiciendo.ImagesActivity"
+            android:label="@string/title_activity_images" >
+        </activity>
+    </application>
+
+</manifest>
