@@ -4,6 +4,26 @@
     <dataSet config="main" >
         <source path="C:\Users\matias\AndroidStudioProjects\AndroidandadiciendoProject\Androidandadiciendo\src\main\res" >
             <file
+                name="gente_icon"
+                path="C:\Users\matias\AndroidStudioProjects\AndroidandadiciendoProject\Androidandadiciendo\src\main\res\drawable\gente_icon.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="unc_icon"
+                path="C:\Users\matias\AndroidStudioProjects\AndroidandadiciendoProject\Androidandadiciendo\src\main\res\drawable\unc_icon.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="unlp_icon"
+                path="C:\Users\matias\AndroidStudioProjects\AndroidandadiciendoProject\Androidandadiciendo\src\main\res\drawable\unlp_icon.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="utn_icon"
+                path="C:\Users\matias\AndroidStudioProjects\AndroidandadiciendoProject\Androidandadiciendo\src\main\res\drawable\utn_icon.png"
+                qualifiers=""
+                type="drawable" />
+            <file
                 name="ic_launcher"
                 path="C:\Users\matias\AndroidStudioProjects\AndroidandadiciendoProject\Androidandadiciendo\src\main\res\drawable-hdpi\ic_launcher.png"
                 qualifiers="hdpi"
@@ -36,6 +56,21 @@
             <file
                 name="activity_page"
                 path="C:\Users\matias\AndroidStudioProjects\AndroidandadiciendoProject\Androidandadiciendo\src\main\res\layout\activity_page.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="imagelist_item"
+                path="C:\Users\matias\AndroidStudioProjects\AndroidandadiciendoProject\Androidandadiciendo\src\main\res\layout\imagelist_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="image_layout"
+                path="C:\Users\matias\AndroidStudioProjects\AndroidandadiciendoProject\Androidandadiciendo\src\main\res\layout\image_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item"
+                path="C:\Users\matias\AndroidStudioProjects\AndroidandadiciendoProject\Androidandadiciendo\src\main\res\layout\list_item.xml"
                 qualifiers=""
                 type="layout" />
             <file
@@ -111,10 +146,10 @@
                 </style>
             </file>
             <file
-                name="image_layout"
-                path="C:\Users\matias\AndroidStudioProjects\AndroidandadiciendoProject\Androidandadiciendo\src\main\res\layout\image_layout.xml"
+                name="share_icon"
+                path="C:\Users\matias\AndroidStudioProjects\AndroidandadiciendoProject\Androidandadiciendo\src\main\res\drawable\share_icon.png"
                 qualifiers=""
-                type="layout" />
+                type="drawable" />
         </source>
         <source path="C:\Users\matias\AndroidStudioProjects\AndroidandadiciendoProject\Androidandadiciendo\build\res\rs\debug" />
     </dataSet>

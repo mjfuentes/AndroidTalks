@@ -13,7 +13,51 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:id="@+id/gallery"
+            android:spacing="10dp"
+            android:layout_below="@+id/index"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="10dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/title"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:textSize="28dp"
+            android:layout_toLeftOf="@+id/share"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:maxLines="1"
+            android:paddingLeft="10dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/index"
+            android:layout_below="@+id/title"
+            android:layout_centerHorizontal="true"
+            android:text="0/0"
+            android:layout_marginTop="5dp"/>
+
+    <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressImages"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
-            android:spacing="10dp"/>
+            android:indeterminate="false"/>
+
+    <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/share"
+            android:layout_alignTop="@+id/title"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/share_icon"
+            android:layout_marginRight="8dp"
+            android:longClickable="true"/>
 </RelativeLayout>

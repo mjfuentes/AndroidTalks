@@ -1,6 +1,7 @@
 package com.mjfuentes.androidandadiciendo;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -8,12 +9,14 @@ import android.app.Activity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.Gallery;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
@@ -38,6 +41,7 @@ public class ImagesActivity extends Activity {
     private String albumUri;
     private FacebookImage[] albumImages;
     private ImagesAdapter adapter;
+    private FacebookImage selectedImage;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,12 +50,49 @@ public class ImagesActivity extends Activity {
         ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(getApplicationContext()).defaultDisplayImageOptions(defaultOptions).build();
         ImageLoader.getInstance().init(config);
         albumUri = getIntent().getStringExtra("uri");
+        final TextView index = (TextView)findViewById(R.id.index);
+        TextView title = (TextView)findViewById(R.id.title);
+        Gallery gallery =(Gallery)findViewById(R.id.gallery);
+        title.setText(getIntent().getStringExtra("name"));
         loadImages();
+        ((ImageView)findViewById(R.id.share)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                shareImage();
+            }
+        });
+        setTitle(getIntent().getStringExtra("pageName"));
+        gallery.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                if (adapter != null){
+                index.setText((position +1) + "/" + adapter.getCount());
+                    selectedImage = (FacebookImage)adapter.getItem(position);
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
     }
 
     public String getAlbumUri()
     {
         return albumUri;
+    }
+
+    private void shareImage()
+    {
+        if (selectedImage!= null)
+        {
+            Intent share = new Intent(android.content.Intent.ACTION_SEND);
+            share.setType("text/plain");
+            share.putExtra(Intent.EXTRA_SUBJECT, "Link");
+            share.putExtra(Intent.EXTRA_TEXT, selectedImage.shareLink);
+            startActivity(Intent.createChooser(share, "Share Image"));
+        }
     }
 
     private void loadImages()
@@ -71,6 +112,7 @@ public class ImagesActivity extends Activity {
         albumImages = images;
         adapter = new ImagesAdapter(this);
         ((Gallery)findViewById(R.id.gallery)).setAdapter(adapter);
+        findViewById(R.id.progressImages).setVisibility(View.INVISIBLE);
     }
 
 }

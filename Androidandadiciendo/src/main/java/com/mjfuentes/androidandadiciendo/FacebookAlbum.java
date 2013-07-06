@@ -6,10 +6,11 @@ package com.mjfuentes.androidandadiciendo;
 public class FacebookAlbum {
     public String name;
     public String uri;
-
-    public FacebookAlbum(String n, String id)
+    public int cant;
+    public FacebookAlbum(String n, String id,int c)
     {
         name = n;
-        uri = "https://graph.facebook.com/" + id + "/photos?fields=source,link";
+        uri = "https://graph.facebook.com/" + id + "/photos?fields=source,link&limit=500";
+        cant = c;
     }
 }

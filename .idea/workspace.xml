@@ -69,7 +69,7 @@
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/ImagesActivity.java" line="152" class="com.mjfuentes.androidandadiciendo.ImagesAdapter$1" package="com.mjfuentes.androidandadiciendo">
+      <breakpoint url="file://$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/ImagesActivity.java" line="194" class="com.mjfuentes.androidandadiciendo.ImagesAdapter$1" package="com.mjfuentes.androidandadiciendo">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -84,7 +84,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/ImagesActivity.java" line="82" class="com.mjfuentes.androidandadiciendo.ImagesLoader" package="com.mjfuentes.androidandadiciendo">
+      <breakpoint url="file://$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/ImagesActivity.java" line="124" class="com.mjfuentes.androidandadiciendo.ImagesLoader" package="com.mjfuentes.androidandadiciendo">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -99,7 +99,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/ImagesActivity.java" line="88" class="com.mjfuentes.androidandadiciendo.ImagesLoader" package="com.mjfuentes.androidandadiciendo">
+      <breakpoint url="file://$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/ImagesActivity.java" line="130" class="com.mjfuentes.androidandadiciendo.ImagesLoader" package="com.mjfuentes.androidandadiciendo">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -124,44 +124,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ImagesActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ImagesActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/ImagesActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="0" selection-start="4493" selection-end="4493" vertical-scroll-proportion="0.38869864" vertical-offset="1694" max-vertical-offset="2278">
+            <state line="83" column="5" selection-start="3161" selection-end="3161" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="2941">
               <folding>
-                <element signature="e#2746#2761#0" expanded="true" />
-                <element signature="e#4956#5234#0" expanded="true" />
-                <element signature="e#5223#5224#0" expanded="true" />
+                <element signature="e#2336#2482#0" expanded="true" />
+                <element signature="e#2471#2472#0" expanded="true" />
+                <element signature="e#4436#4451#0" expanded="true" />
+                <element signature="e#6646#6924#0" expanded="true" />
+                <element signature="e#6913#6914#0" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="image_layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/res/layout/image_layout.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="17" selection-start="788" selection-end="788" vertical-scroll-proportion="-13.6" vertical-offset="0" max-vertical-offset="442">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="8" selection-start="2359" selection-end="2380" vertical-scroll-proportion="0.0" vertical-offset="521" max-vertical-offset="1122">
-              <folding />
+            <state line="35" column="0" selection-start="1335" selection-end="1335" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1275">
+              <folding>
+                <element signature="e#877#1332#0" expanded="true" />
+                <element signature="e#1321#1322#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_images.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="imagelist_item.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/res/layout/imagelist_item.xml">
+          <provider editor-type-id="text-editor">
+            <state line="9" column="4" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_images.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/res/layout/activity_images.xml">
           <provider editor-type-id="text-editor">
-            <state line="3" column="40" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+            <state line="3" column="40" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
               <folding />
             </state>
           </provider>
@@ -172,64 +177,65 @@
       </file>
       <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="45" selection-start="998" selection-end="998" vertical-scroll-proportion="-15.64" vertical-offset="0" max-vertical-offset="680">
+          <provider editor-type-id="text-editor">
+            <state line="14" column="4" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="680">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
+          <provider selected="true" editor-type-id="android-designer">
             <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_page.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/res/layout/activity_page.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="17" selection-start="514" selection-end="514" vertical-scroll-proportion="-8.16" vertical-offset="0" max-vertical-offset="323">
+          <provider editor-type-id="text-editor">
+            <state line="42" column="17" selection-start="1685" selection-end="1685" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="833">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
+          <provider selected="true" editor-type-id="android-designer">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Androidandadiciendo/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StartApplication.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/StartApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="80" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="PageActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/PageActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="29" selection-start="2838" selection-end="2838" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="2210">
+            <state line="94" column="32" selection-start="2858" selection-end="2858" vertical-scroll-proportion="0.0" vertical-offset="928" max-vertical-offset="2278">
               <folding>
-                <element signature="e#3253#3268#0" expanded="true" />
+                <element signature="e#3883#3898#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_item.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/res/layout/list_item.xml">
+          <provider editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FacebookAlbum.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/FacebookAlbum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="88" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FacebookPage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/FacebookPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="16" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -273,17 +279,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/todosandandiciendo.java" />
         <option value="$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/FacebookImage.java" />
         <option value="$PROJECT_DIR$/Androidandadiciendo/build.gradle" />
         <option value="$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/StartApplication.java" />
         <option value="$PROJECT_DIR$/Androidandadiciendo/src/main/res/layout/image_layout.xml" />
         <option value="$PROJECT_DIR$/Androidandadiciendo/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/Androidandadiciendo/src/main/res/layout/activity_images.xml" />
+        <option value="$PROJECT_DIR$/Androidandadiciendo/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/FacebookAlbum.java" />
         <option value="$PROJECT_DIR$/Androidandadiciendo/src/main/res/layout/activity_page.xml" />
-        <option value="$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/MainActivity.java" />
         <option value="$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/PageActivity.java" />
+        <option value="$PROJECT_DIR$/Androidandadiciendo/src/main/res/layout/list_item.xml" />
+        <option value="$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/FacebookPage.java" />
+        <option value="$PROJECT_DIR$/Androidandadiciendo/src/main/res/layout/imageList_item.xml" />
+        <option value="$PROJECT_DIR$/Androidandadiciendo/src/main/res/layout/imagelist_item.xml" />
+        <option value="$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/MainActivity.java" />
         <option value="$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/ImagesActivity.java" />
+        <option value="$PROJECT_DIR$/Androidandadiciendo/src/main/res/layout/activity_images.xml" />
       </list>
     </option>
   </component>
@@ -427,6 +438,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Androidandadiciendo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidandadiciendoProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Androidandadiciendo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -629,8 +670,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\matias\AndroidStudioProjects\AndroidandadiciendoProject\Androidandadiciendo\libs" />
+      <recent name="C:\Users\matias\AndroidStudioProjects\AndroidandadiciendoProject\Androidandadiciendo\src\main\res\drawable" />
       <recent name="C:\Users\matias\AndroidStudioProjects\AndroidandadiciendoProject\Androidandadiciendo\src\main\res\layout" />
+      <recent name="C:\Users\matias\AndroidStudioProjects\AndroidandadiciendoProject\Androidandadiciendo\libs" />
       <recent name="C:\Users\matias\AndroidStudioProjects\AndroidandadiciendoProject\Androidandadiciendo\src\main\java\com\mjfuentes\androidandadiciendo" />
     </key>
   </component>
@@ -860,37 +902,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/todosandandiciendo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/FacebookPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/FacebookAlbum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-17/android/os/AsyncTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="371" column="19" selection-start="14826" selection-end="14826" vertical-scroll-proportion="0.0" vertical-offset="5586" max-vertical-offset="10914">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/FacebookImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
@@ -918,34 +932,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/res/layout/activity_images.xml">
-      <provider editor-type-id="text-editor">
-        <state line="3" column="40" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/res/layout/activity_main.xml">
+    <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/FacebookImage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="45" selection-start="998" selection-end="998" vertical-scroll-proportion="-15.64" vertical-offset="0" max-vertical-offset="680">
+        <state line="11" column="22" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/res/layout/activity_page.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="514" selection-end="514" vertical-scroll-proportion="-8.16" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/res/layout/image_layout.xml">
@@ -958,31 +949,100 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/FacebookAlbum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="8" selection-start="2359" selection-end="2380" vertical-scroll-proportion="0.0" vertical-offset="521" max-vertical-offset="1122">
+        <state line="12" column="88" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/res/layout/list_item.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/PageActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="29" selection-start="2838" selection-end="2838" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="2210">
+        <state line="94" column="32" selection-start="2858" selection-end="2858" vertical-scroll-proportion="0.0" vertical-offset="928" max-vertical-offset="2278">
           <folding>
-            <element signature="e#3253#3268#0" expanded="true" />
+            <element signature="e#3883#3898#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/FacebookPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="16" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/res/layout/imagelist_item.xml">
+      <provider editor-type-id="text-editor">
+        <state line="9" column="4" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="text-editor">
+        <state line="14" column="4" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/res/layout/activity_page.xml">
+      <provider editor-type-id="text-editor">
+        <state line="42" column="17" selection-start="1685" selection-end="1685" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="1335" selection-end="1335" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1275">
+          <folding>
+            <element signature="e#877#1332#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/java/com/mjfuentes/androidandadiciendo/ImagesActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="0" selection-start="4493" selection-end="4493" vertical-scroll-proportion="0.38869864" vertical-offset="1694" max-vertical-offset="2278">
+        <state line="83" column="5" selection-start="3161" selection-end="3161" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="2941">
           <folding>
-            <element signature="e#2746#2761#0" expanded="true" />
-            <element signature="e#4956#5234#0" expanded="true" />
-            <element signature="e#5223#5224#0" expanded="true" />
+            <element signature="e#2336#2482#0" expanded="true" />
+            <element signature="e#2471#2472#0" expanded="true" />
+            <element signature="e#4436#4451#0" expanded="true" />
+            <element signature="e#6646#6924#0" expanded="true" />
+            <element signature="e#6913#6914#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Androidandadiciendo/src/main/res/layout/activity_images.xml">
+      <provider editor-type-id="text-editor">
+        <state line="3" column="40" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>

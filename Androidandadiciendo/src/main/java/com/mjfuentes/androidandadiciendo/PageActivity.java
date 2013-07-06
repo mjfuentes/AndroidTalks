@@ -5,11 +5,13 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import org.apache.http.HttpResponse;
@@ -36,12 +38,14 @@ public class PageActivity extends Activity {
         setContentView(R.layout.activity_page);
         pageUri = getIntent().getStringExtra("uri");
         loadAlbums();
+        setTitle(getIntent().getStringExtra("name"));
         ((ListView)findViewById(R.id.albumsList)).setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent i = new Intent(PageActivity.this,ImagesActivity.class);
                 i.putExtra("uri",((FacebookAlbum)adapter.getItem(position)).uri);
                 i.putExtra("name",((FacebookAlbum)adapter.getItem(position)).name);
+                i.putExtra("pageName",getIntent().getStringExtra("name"));
                 startActivity(i);
             }
         });
@@ -68,7 +72,7 @@ public class PageActivity extends Activity {
         pageAlbums = albums;
         adapter = new albumsAdapter(this);
         ((ListView)findViewById(R.id.albumsList)).setAdapter(adapter);
-    }
+        findViewById(R.id.progressAlbums).setVisibility(View.INVISIBLE);    }
     
 }
 
@@ -98,9 +102,12 @@ class albumsAdapter extends BaseAdapter
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        TextView view = new TextView(context);
-        view.setTextSize(28);
-        view.setText(albums[position].name);
+        LayoutInflater inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        RelativeLayout view = (RelativeLayout) inflater.inflate(context.getResources().getLayout(R.layout.list_item),null);
+        TextView title = (TextView)view.findViewById(R.id.title);
+        TextView subTitle = (TextView)view.findViewById(R.id.subTitle);
+        title.setText(albums[position].name);
+        subTitle.setText("Cant: " + albums[position].cant);
         return view;
     }
 }
@@ -133,10 +140,9 @@ class AlbumLoader extends AsyncTask
             JSONArray data = obj.getJSONArray("data");
             for (int i = 0;i<data.length();i++)
             {
-                if (data.getJSONObject(i).getInt("count") > 5)
-                {
-                    albums.add(new FacebookAlbum(data.getJSONObject(i).getString("name"),data.getJSONObject(i).getString("id")));
-                }
+                //if (data.getJSONObject(i).getInt("count") > 5)
+
+                    albums.add(new FacebookAlbum(data.getJSONObject(i).getString("name"),data.getJSONObject(i).getString("id"),data.getJSONObject(i).getInt("count")));
             }
             return albums.toArray(new FacebookAlbum[albums.size()]);
 

@@ -4,11 +4,14 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
@@ -42,10 +45,10 @@ class MainAdapter extends BaseAdapter
     }
 
     private FacebookPage[] pages = new FacebookPage[] {
-            new FacebookPage("La Gente anda diciendo","https://graph.facebook.com/LaGenteAndaDiciendo/albums?fields=name,id,count"),
-            new FacebookPage("La UNLP anda diciendo","https://graph.facebook.com/LaUnlpAndaDiciendo/albums?fields=name,id,count"),
-            new FacebookPage("La UNC anda diciendo","https://graph.facebook.com/LaUNCAndaDiciendo/albums?fields=name,id,count"),
-            new FacebookPage("La UTN anda diciendo","https://graph.facebook.com/LaUtnAndaDiciendo/albums?fields=name,id,count")};
+            new FacebookPage("La Gente anda diciendo","https://graph.facebook.com/LaGenteAndaDiciendo/albums?fields=name,id,count&limit=10","/LaGenteAndaDiciendo",R.drawable.gente_icon),
+            new FacebookPage("La UNLP anda diciendo","https://graph.facebook.com/LaUnlpAndaDiciendo/albums?fields=name,id,count&limit=10","/LaUnlpAndaDiciendo",R.drawable.unlp_icon),
+            new FacebookPage("La UNC anda diciendo","https://graph.facebook.com/LaUNCAndaDiciendo/albums?fields=name,id,count&limit=10","/LaUNCAndaDiciendo",R.drawable.unc_icon),
+            new FacebookPage("La UTN anda diciendo","https://graph.facebook.com/LaUtnAndaDiciendo/albums?fields=name,id,count&limit=10","/LaUtnAndaDiciendo",R.drawable.utn_icon)};
 
     @Override
     public int getCount() {
@@ -64,9 +67,15 @@ class MainAdapter extends BaseAdapter
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        TextView view = new TextView(context);
-        view.setTextSize(28);
-        view.setText(pages[position].name);
+        LayoutInflater inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        RelativeLayout view = (RelativeLayout) inflater.inflate(context.getResources().getLayout(R.layout.imagelist_item),null);
+        TextView title = (TextView)view.findViewById(R.id.title);
+        TextView subTitle = (TextView)view.findViewById(R.id.subTitle);
+        ImageView icon = (ImageView)view.findViewById(R.id.page_icon);
+        title.setText(pages[position].name);
+        subTitle.setText(pages[position].extra);
+        icon.setImageResource(pages[position].resId);
+
         return view;
     }
 }

@@ -6,9 +6,13 @@ package com.mjfuentes.androidandadiciendo;
 public class FacebookPage {
     public String name;
     public String uri;
-    public FacebookPage(String n, String u)
+    public String extra;
+    public int resId;
+    public FacebookPage(String n, String u, String e,int i)
     {
         name = n;
+        extra = e;
         uri = u;
+        resId = i;
     }
 }
