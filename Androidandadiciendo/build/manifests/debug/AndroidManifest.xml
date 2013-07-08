@@ -1,4 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.mjfuentes.androidandadiciendo">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="2" android:versionName="1.1" package="com.mjfuentes.androidandadiciendo">
 
     <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="16"/>
 
