@@ -48,7 +48,10 @@ class MainAdapter extends BaseAdapter
             new FacebookPage("La Gente anda diciendo","https://graph.facebook.com/LaGenteAndaDiciendo/albums?fields=name,id,count&limit=10","/LaGenteAndaDiciendo",R.drawable.gente_icon),
             new FacebookPage("La UNLP anda diciendo","https://graph.facebook.com/LaUnlpAndaDiciendo/albums?fields=name,id,count&limit=10","/LaUnlpAndaDiciendo",R.drawable.unlp_icon),
             new FacebookPage("La UNC anda diciendo","https://graph.facebook.com/LaUNCAndaDiciendo/albums?fields=name,id,count&limit=10","/LaUNCAndaDiciendo",R.drawable.unc_icon),
-            new FacebookPage("La UTN anda diciendo","https://graph.facebook.com/LaUtnAndaDiciendo/albums?fields=name,id,count&limit=10","/LaUtnAndaDiciendo",R.drawable.utn_icon)};
+            new FacebookPage("La UTN anda diciendo","https://graph.facebook.com/LaUtnAndaDiciendo/albums?fields=name,id,count&limit=10","/LaUtnAndaDiciendo",R.drawable.utn_icon),
+            new FacebookPage("La UBA anda diciendo","https://graph.facebook.com/UBAdiciendo/albums?fields=name,id,count&limit=10","/UBAdiciendo",R.drawable.uba_icon),
+            new FacebookPage("La UNR anda diciendo","https://graph.facebook.com/LaUNRandadiciendo/albums?fields=name,id,count&limit=10","/LaUNRandadiciendo",R.drawable.unr_icon)};
+
 
     @Override
     public int getCount() {

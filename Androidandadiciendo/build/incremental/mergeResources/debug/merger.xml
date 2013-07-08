@@ -150,6 +150,16 @@
                     <!-- API 11 theme customizations can go here. -->
                 </style>
             </file>
+            <file
+                name="unr_icon"
+                path="C:\Users\matias\AndroidStudioProjects\AndroidandadiciendoProject\Androidandadiciendo\src\main\res\drawable\unr_icon.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="uba_icon"
+                path="C:\Users\matias\AndroidStudioProjects\AndroidandadiciendoProject\Androidandadiciendo\src\main\res\drawable\uba_icon.jpg"
+                qualifiers=""
+                type="drawable" />
         </source>
         <source path="C:\Users\matias\AndroidStudioProjects\AndroidandadiciendoProject\Androidandadiciendo\build\res\rs\debug" />
     </dataSet>

@@ -141,8 +141,9 @@ class AlbumLoader extends AsyncTask
             for (int i = 0;i<data.length();i++)
             {
                 //if (data.getJSONObject(i).getInt("count") > 5)
-
+                    if (!data.getJSONObject(i).getString("name").equals("Profile Pictures") && (!data.getJSONObject(i).getString("name").equals("Cover Photos"))){
                     albums.add(new FacebookAlbum(data.getJSONObject(i).getString("name"),data.getJSONObject(i).getString("id"),data.getJSONObject(i).getInt("count")));
+            }
             }
             return albums.toArray(new FacebookAlbum[albums.size()]);
 
